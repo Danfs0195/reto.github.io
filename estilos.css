@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+*{
+  box-sizing: border-box;    /*borde de caja y que trabaje como caja respertando sus bordes y no cresca*/
+
+}
+
+header{
+  margin: 10px;
+  padding: 15px;
+  border-radius: 20px;
+  background-color: rgb(48, 51, 201);
+  color: aliceblue;
+  text-align: center;
+  font-size: large;
+  text-transform: uppercase;
+  font-family: 'Luxurious Roman', cursive;
+  opacity: 0.8;
+}
+
+
+body{
+  background-image: url(fondo.png);
+}
+
+h1{
+  text-align: center;
+  color: azure;
+
+}
+
+h2{
+  text-transform: uppercase;
+  color: aliceblue;
+  text-align: center;
+  text-decoration: overline underline;
+}
+
+.main{
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.caja{
+  padding: 10px;
+  margin: 0 10px 0 10px;
+  font-weight: bold;
+  background-color: rgb(68, 60, 97);
+  opacity: 0.7;
+  border-radius: 0.5em;
+  border-style: dashed;
+  width: 30vw;
+  height: auto;
+
+}
+
+.texto{
+  
+  border-radius: 0.5em;
+  border: 1px solid rgba(255, 250, 250, 0.2);
+  display: block;
+  padding: 0.5em;
+  width: 95%;
+  height: 50px;
+  
+}
+
+.btn{
+  padding: 10px;
+  color: black;
+  font-weight: bold;
+  background-color: aliceblue;
+  border-radius: 0.9em;
+  
+  
+}
+
+
+footer{
+  padding: 15px 15px;
+  margin-top: 27vw;
+  text-align: center;
+  font-size: 16px;
+  font-family:'Mochiy Pop P One', sans-serif;;
+  color: azure;
+  background-color: rgb(48, 51, 201);
+  opacity: 0.8;
+  border-radius: 9em;
+
+
+}
+
+
+/*botones*/
